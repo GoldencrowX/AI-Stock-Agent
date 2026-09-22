@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ADK Web (Stock Agent)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "google.adk.cli",
+            "args": ["web", ".", "--port", "8000"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
